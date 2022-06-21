@@ -3,11 +3,12 @@
     <parent>
         <artifactId>Pet-Clinic</artifactId>
         <groupId>com.learning</groupId>
-        <version>0.0.1</version>
+        <version>0.0.2-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>Pet-Clinic-Web</artifactId>
+  <version>0.0.1</version>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -44,9 +45,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-
-  <scm>
-    <tag>Pet-Clinic-0.0.1</tag>
-  </scm>
 </project>
