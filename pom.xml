@@ -14,7 +14,7 @@
 	</parent>
 	<groupId>com.learning</groupId>
 	<artifactId>Pet-Clinic</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.1-SNAPSHOT</version>
 	<name>Pet-Clinic</name>
 	<description>Pet-Clinic</description>
 	<properties>
@@ -54,7 +54,6 @@
 	</build>
 
 	<scm>
-		<developerConnection>scm:git:git@github.com:mahbub-ul-islam/Pet-Clinic.git</developerConnection>
-	  <tag>0.0.1</tag>
-  </scm>
+		<developerConnection>scm:git:https://github.com/mahbub-ul-islam/Pet-Clinic.git</developerConnection>
+  	</scm>
 </project>
