@@ -1,11 +1,17 @@
 
-Add WebJars for Bootstrap CSS And Jquery
+Create Equals Method on Entity Objects
 
-Add Pet Clinic Index Page and Controller
+Create Equals method on Entity Objects
 
-Create pet Clinic Controller
+
+
 
 Implement Map Based Services
 
 Upgrade to JUnit 5
 
+Add WebJars for Bootstrap CSS And Jquery
+
+Add Pet Clinic Index Page and Controller
+
+Create pet Clinic Controller
