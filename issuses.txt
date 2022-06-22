@@ -6,8 +6,6 @@ Create Equals method on Entity Objects
 
 
 
-Implement Map Based Services
-
 Upgrade to JUnit 5
 
 Add WebJars for Bootstrap CSS And Jquery

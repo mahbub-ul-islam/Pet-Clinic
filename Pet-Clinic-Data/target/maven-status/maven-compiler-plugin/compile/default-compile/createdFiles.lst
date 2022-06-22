@@ -1,5 +1,14 @@
-com\learning\petclinic\model\Person.class
+com\learning\petclinic\services\CrudService.class
+com\learning\petclinic\services\map\OwnerServiceMap.class
+com\learning\petclinic\model\BaseEntity.class
+com\learning\petclinic\services\map\AbstractMapService.class
+com\learning\petclinic\services\map\VetServiceMap.class
+com\learning\petclinic\model\Vet.class
+com\learning\petclinic\services\VetService.class
 com\learning\petclinic\model\Owner.class
+com\learning\petclinic\services\map\PetServiceMap.class
 com\learning\petclinic\model\Pet.class
 com\learning\petclinic\model\PetType.class
-com\learning\petclinic\model\Vet.class
+com\learning\petclinic\services\OwnerService.class
+com\learning\petclinic\model\Person.class
+com\learning\petclinic\services\PetService.class
