@@ -1,5 +1,5 @@
 
-Create Equals Method on Entity Objects
+
 
 
 
@@ -7,18 +7,17 @@ Create Equals Method on Entity Objects
 
 Create Pet index Page and Controller
 
-Load Bootstrap Data on Startup
 
-List all Vets on Vet index Page
 
-List all Owners on Owner index Page
 
-Copy all Static Resources From Spring Pet Clinic
-images, js, css etc.
 
-Copy Master Template From Spring Pet Clinic
 
-Apply Master Layout to Index Page
+
+
+
+
+
+
 
 Apply Master Layout to Owners List Page
 
@@ -41,3 +40,32 @@ Create pet Clinic Controller
 Create Vet index Page and Controller
 
 Create Owner index page and Controller
+
+Create Equals Method on Entity Objects
+
+Load Bootstrap Data on Startup
+
+List all Vets on Vet index Page
+
+List all Owners on Owner index Page
+
+Copy all Static Resources From Spring Pet Clinic
+images, js, css etc.
+
+Copy Master Template From Spring Pet Clinic
+
+Apply Master Layout to Index Page
+
+
+
+
+
+
+
+
+
+
+
+
+
+
