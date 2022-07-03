@@ -56,6 +56,8 @@ Copy Master Template From Spring Pet Clinic
 
 Apply Master Layout to Index Page
 
+Implement Spring Conf for Services
+
 
 
 
