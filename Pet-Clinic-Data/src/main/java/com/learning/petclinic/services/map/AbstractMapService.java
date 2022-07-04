@@ -1,8 +1,10 @@
 package com.learning.petclinic.services.map;
 
+import com.learning.petclinic.model.BaseEntity;
+
 import java.util.*;
 
-public abstract class AbstractMapService<Type, ID extends Long> {
+public abstract class AbstractMapService<Type extends BaseEntity, ID extends Long> {
 
     protected Map<Long, Type> map = new HashMap<>();
 
@@ -14,10 +16,17 @@ public abstract class AbstractMapService<Type, ID extends Long> {
         return new HashSet<>(map.values());
     }
 
-    Type save(ID id, Type object) {
+    Type save(Type object) {
 
+        if (object != null) {
+            if(object.getId() == null) {
+                object.setId(getNextId());
+            }
 
-        map.put(id, object);
+            map.put(object.getId(), object);
+        } else {
+            throw new RuntimeException("Object cannot be null.");
+        }
 
         return object;
     }
@@ -31,7 +40,17 @@ public abstract class AbstractMapService<Type, ID extends Long> {
     }
 
     private Long getNextId() {
-        return Collections.max(map.keySet()) + 1;
+
+        Long nextId = null;
+
+        try {
+            nextId = Collections.max(map.keySet()) + 1;
+        }
+        catch (NoSuchElementException e) {
+            nextId = 1L;
+        }
+
+        return nextId;
     }
 
 }
