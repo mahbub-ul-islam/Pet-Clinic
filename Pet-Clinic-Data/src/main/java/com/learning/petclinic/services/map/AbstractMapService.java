@@ -1,13 +1,10 @@
 package com.learning.petclinic.services.map;
 
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
-import java.util.Set;
+import java.util.*;
 
-public abstract class AbstractMapService<Type, ID> {
+public abstract class AbstractMapService<Type, ID extends Long> {
 
-    protected Map<ID, Type> map = new HashMap<>();
+    protected Map<Long, Type> map = new HashMap<>();
 
     Type findById(ID id) {
         return map.get(id);
@@ -18,6 +15,7 @@ public abstract class AbstractMapService<Type, ID> {
     }
 
     Type save(ID id, Type object) {
+
 
         map.put(id, object);
 
@@ -31,4 +29,9 @@ public abstract class AbstractMapService<Type, ID> {
     void delete(Type object) {
         map.entrySet().removeIf(entry -> entry.getValue().equals(object));
     }
+
+    private Long getNextId() {
+        return Collections.max(map.keySet()) + 1;
+    }
+
 }
