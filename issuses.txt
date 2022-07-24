@@ -1,14 +1,5 @@
 
 
-Create Specialty Map Service Impl
-
-Add PetTypes in with Bootstrap (startup)
-
-Enhance Owners with contact info and Pets on startup
-
-Create Specialities, add to Vets on Startup (Bootstrap)
-
-Implement Base Entity (JPA)
 
 Convert Owners to JPA Entities
 
