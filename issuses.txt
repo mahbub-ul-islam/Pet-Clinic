@@ -1,6 +1,6 @@
 
 
-Create Specialty Service
+Create Specialty Map Service Impl
 
 Add PetTypes in with Bootstrap (startup)
 
