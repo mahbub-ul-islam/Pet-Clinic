@@ -1,9 +1,25 @@
 
+Load Visits on Startup in Bootstrap
 
+Write Crud Tests for Owner Map Service
 
+Write Crud Tests for Owner Spring Data JPA Service
 
+Add Project Lombok and Refactor
 
+Write Spring MVC Tests for Owner Controller
 
+Display Owner Record (HTML)
+
+Implement Find Owner
+
+Add ability to add or update an Owner
+
+Add ability to add or update a Pet
+
+Add ability to add or update a Visit
+
+Add Spring Boot Error Page
 
 
 
